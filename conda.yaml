@@ -1,0 +1,12 @@
+name: D:\ALL_Python\AI_ops\PROJECTS\env
+channels:
+  - defaults
+dependencies:
+  - python=3.9.13
+  - pip
+  - pip:
+    - tensorflow
+    - pandas-profiling
+    - numpy
+    - sklearn
+    - mlflow
