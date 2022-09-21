@@ -7,4 +7,4 @@ entry_points:
         parameters:
             first: {type: int, default: 2}
             second: {type: int, default: 5}
-        command: "python demo.py -p1 {param1} -p2 {param2}"
+        command: "python demo.py -f {first} -s {second}"
