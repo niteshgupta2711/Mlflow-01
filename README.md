@@ -26,5 +26,8 @@ mlflow run githtttps -f 3 -s 4
 ```
 mlflow models serve -m abspath -p 1234 --no-conda
 ```
+```
+{'colums':[],'data':[[]]}
+```
 
 
