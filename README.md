@@ -29,5 +29,11 @@ mlflow models serve -m abspath -p 1234 --no-conda
 ```
 {'colums':[],'data':[[]]}
 ```
+```
+mlflow run . -e stage_01 --no-conda
+```
+```
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts -h 127.0.0.1 -p 3456
+```
 
 
